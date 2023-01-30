@@ -6,7 +6,13 @@ const MasterLayout = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <main
+        style={{
+          position: "relative",
+          minHeight: "calc(100vh - 150px)",
+          paddingTop: 75,
+        }}
+      >
         <Outlet />
       </main>
     </>
