@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": "377ab7ce-9bc5-266f-d0e4-6ffcdf9b52ff",
+      "title": "Planner UI",
+      "description": "complete UI part of planner app",
+      "dueDate": "2023-01-31",
+      "status": "completed"
+    },
+    {
+      "id": "3dbd5f5d-49e1-0992-3d33-c4642797220e",
+      "title": "Planner Backend",
+      "description": "",
+      "dueDate": "2023-02-10",
+      "status": "in progress"
+    },
+    {
+      "title": "CRUD",
+      "description": "complete create, read, update & delete functionality",
+      "dueDate": "2023-03-04",
+      "status": "completed",
+      "id": "74c87346-cce4-62a8-1292-339b2978f404"
+    },
+    {
+      "title": "User Tasks",
+      "description": "create user backend and attach tasks to current logged in user, also display only logged in user tasks",
+      "dueDate": "2023-02-28",
+      "status": "blocked",
+      "id": "b3f12b62-2967-cc60-1bc6-facdd5b74a21"
+    }
+  ]
+}

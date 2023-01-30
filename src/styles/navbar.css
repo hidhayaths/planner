@@ -1,0 +1,32 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 5px 50px;
+}
+
+.app-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  list-style: none;
+}
+
+.app-header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+.app-nav-list-item > a {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+.app-nav-list-item > a.active {
+  font-weight: 500;
+  background: #a8a9d6;
+  border-bottom: 2px solid #a7a8f7;
+}

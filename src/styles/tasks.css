@@ -1,0 +1,101 @@
+.tasks {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 30px;
+  padding: 1em 3em;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  box-shadow: 3px 3px 10px #bec0ff;
+  border-radius: 5px;
+}
+
+.task-title {
+  margin-top: 0px;
+}
+
+.task-title > a {
+  text-decoration: none;
+}
+
+.card-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .label {
+  font-size: 0.7rem;
+  color: #a7a8f7;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card .label-item {
+  margin: 0;
+}
+
+.task-description {
+  min-height: 75px;
+}
+
+.label-item {
+  color: #8e918c;
+  font-size: 0.8rem;
+}
+
+.task-status {
+  text-transform: capitalize;
+}
+
+.add-task-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.add-update-task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 35px;
+}
+
+.task-edit-container {
+  margin: 2em 4em;
+  max-width: 450px;
+}
+
+.task-edit-container > .task-edit-controls {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-left: 10px;
+}
+
+.task-edit-controls > .add-btn {
+  background-color: #a0a1ff;
+}
+
+.task-edit-controls > .delete-btn {
+  background-color: #ff375f;
+}
+
+.task.green {
+  background: radial-gradient(#f2f2f2, #cffad8);
+}
+
+.task.amber {
+  background: radial-gradient(#f2f2f2, #fae4cf);
+}
+
+.task.red {
+  background: radial-gradient(#f2f2f2, #e0acab);
+}

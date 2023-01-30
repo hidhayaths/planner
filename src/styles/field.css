@@ -1,0 +1,20 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.field > label {
+  font-size: 0.9em;
+  color: #a3a5ff;
+  text-transform: capitalize;
+  padding-left: 5px;
+}
+
+.field > label + * {
+  padding: 10px;
+  border: 1px solid #d6d6d6;
+  border-radius: 7px;
+  color: #8f8f8f;
+}
